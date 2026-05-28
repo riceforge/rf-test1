@@ -1,0 +1,9 @@
+[[steps]]
+name = "Notify: Catppuccin Mocha applied"
+run  = "notify-send -i preferences-desktop-theme 'RiceForge' 'Catppuccin Mocha deployed. Add to hyprland.conf: source = ~/.config/hypr/themes/catppuccin-mocha.conf'"
+when = "install"
+
+[[steps]]
+name = "Notify: theme removed"
+run  = "notify-send 'RiceForge' 'Catppuccin Mocha theme removed'"
+when = "remove"
